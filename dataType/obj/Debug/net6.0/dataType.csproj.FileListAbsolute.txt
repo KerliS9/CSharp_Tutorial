@@ -1,0 +1,15 @@
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/bin/Debug/net6.0/dataType
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/bin/Debug/net6.0/dataType.deps.json
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/bin/Debug/net6.0/dataType.runtimeconfig.json
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/bin/Debug/net6.0/dataType.dll
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/bin/Debug/net6.0/dataType.pdb
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.csproj.AssemblyReference.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.GeneratedMSBuildEditorConfig.editorconfig
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.AssemblyInfoInputs.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.AssemblyInfo.cs
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.csproj.CoreCompileInputs.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.dll
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/refint/dataType.dll
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.pdb
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/dataType.genruntimeconfig.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/dataType/obj/Debug/net6.0/ref/dataType.dll

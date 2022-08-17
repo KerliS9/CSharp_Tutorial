@@ -1,0 +1,15 @@
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/bin/Debug/net6.0/console
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/bin/Debug/net6.0/console.deps.json
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/bin/Debug/net6.0/console.runtimeconfig.json
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/bin/Debug/net6.0/console.dll
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/bin/Debug/net6.0/console.pdb
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.csproj.AssemblyReference.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.GeneratedMSBuildEditorConfig.editorconfig
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.AssemblyInfoInputs.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.AssemblyInfo.cs
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.csproj.CoreCompileInputs.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.dll
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/refint/console.dll
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.pdb
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/console.genruntimeconfig.cache
+/home/kerli/cSharp/semana1/tutorialCodeCamp/console/obj/Debug/net6.0/ref/console.dll

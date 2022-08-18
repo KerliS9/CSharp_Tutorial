@@ -18,5 +18,7 @@ public class DataType {
     Console.WriteLine(phrase[0]); // retorna o index
     Console.WriteLine(phrase.IndexOf("li")); // mostra o index da palavra pesquisada
     Console.WriteLine(phrase.Substring(6, 5)); // identifica o início da extração e quantos dados serão extraídos
+    Console.WriteLine(Math.Pow(3, 2)); // exponenciação
+    Console.WriteLine(Math.Max(10, 21)); // extrai o maior número MÉTODOS MATEMÁTICOS
   }
 }

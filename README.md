@@ -13,3 +13,6 @@ Repositório criado para treinar conceitos básicos em C#
     - quebrando linha
     - acessando métodos
     - tipos de números
+
+- userInput:
+    - fazendo interação com o usuário

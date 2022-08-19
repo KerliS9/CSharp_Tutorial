@@ -16,3 +16,5 @@ Repositório criado para treinar conceitos básicos em C#
 
 - userInput:
     - fazendo interação com o usuário
+
+- debugging code:

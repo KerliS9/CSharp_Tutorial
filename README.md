@@ -22,3 +22,7 @@ Repositório criado para treinar conceitos básicos em C#
 
 - calculator:
     - convertendo tipos de dados
+
+- madLib:
+    - imprimindo string com join
+    - criando nova string com classe

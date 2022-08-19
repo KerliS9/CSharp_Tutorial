@@ -18,3 +18,7 @@ Repositório criado para treinar conceitos básicos em C#
     - fazendo interação com o usuário
 
 - debugging code:
+    - passo a passo para usar o debug
+
+- calculator:
+    - convertendo tipos de dados

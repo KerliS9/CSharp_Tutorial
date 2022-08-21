@@ -25,4 +25,4 @@ public class Program {
 // cw + tab : para criar a linha System.Console.WriteLine
 // ctrl + x : remover linhas
 // t (try) + tab : cria um bloco try/catch
-
+// ctrl + / : comentar a linha

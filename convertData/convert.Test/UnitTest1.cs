@@ -29,17 +29,21 @@ public class UnitTest1
         floatTypeCheck.Should().Be(true);
     }
 
-    [Fact]
-    public void TestConvertDoConversion()
+    [Theory(DisplayName="Converter string para números")]
+    [InlineData("1", 1)]
+    [InlineData("100", 100)]
+    [InlineData("-50", -50)]
+    public void TestConvertDoConversion(string entry, int expected)
     {
         Class1 instance = new();
-        instance.strEntry.Should().Be("42");
+        // instance.strEntry.Should().Be(entry);
+        instance.strEntry = entry;
         var stringTypeCheck = instance.strEntry is string;
         stringTypeCheck.Should().Be(true);
 
         instance.DoConversion();
 
-        instance.intResponse.Should().Be(42);
+        instance.intResponse.Should().Be(expected);
         var intTypeCheck = instance.intResponse is int;
         intTypeCheck.Should().Be(true);
 

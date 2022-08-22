@@ -1,4 +1,6 @@
-﻿namespace convert;
+﻿using System;
+
+namespace convert;
 public class Class1
 {
   public int intEntry = 42;

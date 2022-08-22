@@ -27,8 +27,12 @@ Repositório criado para treinar conceitos básicos em C#
     - imprimindo string com join
     - criando nova string com classe
 
-- convert:
+- convertData:
     - testando conversões
+
+- controlStructure:
+    - verificando condição antes de converter
+    - função com if/else e switch/case
 
 ## Comandos mais usados
 

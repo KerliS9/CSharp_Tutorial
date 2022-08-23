@@ -36,6 +36,7 @@ Repositório criado para treinar conceitos básicos em C#
 
 - iterationStructure:
     - forEach/for/while/doWhile
+    - StringWriter/StringReader
 
 ## Comandos mais usados
 

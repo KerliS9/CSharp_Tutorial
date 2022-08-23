@@ -34,6 +34,9 @@ Repositório criado para treinar conceitos básicos em C#
     - verificando condição antes de converter
     - função com if/else e switch/case
 
+- iterationStructure:
+    - forEach/for/while/doWhile
+
 ## Comandos mais usados
 
 - dotnet run

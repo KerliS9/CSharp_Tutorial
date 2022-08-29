@@ -76,6 +76,14 @@ Para processar e testar:
 PS. os arquivos que possuem a lógica desenvolvida podem ser renomeados conforme a classe do arquivo. NomeDaClasse.cs
 Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 
+### Principais tipos de dados
+
+- char - usado para identificar um caractere, por exemplo: 'A'
+- int - usado para identificar números inteiros, por exemplo: 12
+- decimal - usado para identificar números com casas decimas, é necessário usar o sufixo m, por exemplo: 12.30m (Sem sufixo o número será tratado como double)
+- bool - usado para identificar valor verdadeiro ou falso, por exemplo: true
+- string - usado para apresentação ou referência, por exemplo: "Hello World!"
+
 ### Lendo erros no console - pontos de atenção:
 
  - A primeira parte (1,1) indica a "linha e a coluna" em que o erro ocorreu.

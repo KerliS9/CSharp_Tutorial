@@ -38,6 +38,10 @@ Repositório criado para treinar conceitos básicos em C#
     - forEach/for/while/doWhile
     - StringWriter/StringReader
 
+- methods:
+    - chamando funções no método Main
+    - usando parâmetros
+
 ## Comandos mais usados
 
 - dotnet run
@@ -71,3 +75,26 @@ Para processar e testar:
 
 PS. os arquivos que possuem a lógica desenvolvida podem ser renomeados conforme a classe do arquivo. NomeDaClasse.cs
 Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
+
+### Lendo erros no console - pontos de atenção:
+
+ - A primeira parte (1,1) indica a "linha e a coluna" em que o erro ocorreu.
+ - O C# é uma linguagem que diferencia maiúsculas de minúsculas.
+ - Aspas precisam ser duplas. Aspas simples somente são usadas para identificar o tipo de dado CHAR.
+
+### Atalhos
+
+- cw + tab : para criar a linha System.Console.WriteLine
+- ctrl + x : remover linhas
+- t (try) + tab : cria um bloco try/catch
+- ctrl + / : comentar a linha
+
+### Adicionais
+
+- Console.WriteLine - imprime uma linha abaixo da outra
+- Console.Write - encadeia a resposta numa linha
+- Aspas duplas ""- cadeia de caracteres literal
+- Parênteses () - operador de invocação de método
+- Classe - métodos residem dentro de classes
+- Ponto . - entre a classe e o método - é como se navega entre a classe e seus métodos
+- Ponto e vírgula - final do operador de instrução

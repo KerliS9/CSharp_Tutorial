@@ -9,6 +9,8 @@ public class Program {
   {
     SayHi();
     IfStatement();
+    
+    GetMax(6,5);
     int cubeNumber = Cube(5);
     System.Console.WriteLine(cubeNumber);
     
@@ -47,5 +49,22 @@ public class Program {
     {
       Console.WriteLine("You are not tall and/or female");
     }
+  }
+
+  static int GetMax(int num1, int num2)
+  {
+    int result;
+    if (num1 > num2) 
+    {
+      result = num1;
+      Console.Write("Primeiro parâmetro é maior ");
+      Console.WriteLine(result);
+    } else
+    {
+      result = num2;
+      Console.Write("Segundo parâmetro é maior");
+      Console.WriteLine(result);
+    }
+    return result;
   }
 }

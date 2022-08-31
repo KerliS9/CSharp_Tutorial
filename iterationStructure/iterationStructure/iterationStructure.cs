@@ -6,6 +6,7 @@ public class NumbersTools
 static void Main()
 {
     WhileIsTrue(5);
+    DoWhileIsTrue();
 }
 public static int CountOf(int[] numbers, int value)
 {
@@ -81,5 +82,15 @@ public static int CountOf(int[] numbers, int value)
             System.Console.WriteLine(index);
             index++;
         }
+    }
+
+    public static void DoWhileIsTrue()
+    {
+        int index = 6;
+        do
+        {
+            System.Console.WriteLine(index);
+            index++;
+        } while (index <= 5);
     }
 }

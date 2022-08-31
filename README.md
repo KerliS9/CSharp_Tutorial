@@ -4,9 +4,19 @@ Repositório criado para treinar conceitos básicos em C#
 
 # Pastas e conteúdos
 
-- Console: 
+- calculator:
+    - convertendo tipos de dados
+
+- console: 
     - imprimindo dados
     - concatenando variáveis no texto
+
+- controlStructure:
+    - verificando condição antes de converter
+    - função com if/else e switch/case
+
+- convertData:
+    - testando conversões
 
 - dataType:
     - tipos de dados
@@ -14,33 +24,27 @@ Repositório criado para treinar conceitos básicos em C#
     - acessando métodos
     - tipos de números
 
-- userInput:
-    - fazendo interação com o usuário
-
 - debugging code:
     - passo a passo para usar o debug
 
-- calculator:
-    - convertendo tipos de dados
-
-- madLib:
-    - imprimindo string com join
-    - criando nova string com classe
-
-- convertData:
-    - testando conversões
-
-- controlStructure:
-    - verificando condição antes de converter
-    - função com if/else e switch/case
+- guessingGame:
+    - adivinhando a palavra
+    - while combinado com if/else
 
 - iterationStructure:
     - forEach/for/while/doWhile
     - StringWriter/StringReader
 
+- madLib:
+    - imprimindo string com join
+    - criando nova string com classe
+
 - methods:
     - chamando funções no método Main
     - usando parâmetros
+
+- userInput:
+    - fazendo interação com o usuário
 
 ## Comandos mais usados
 
@@ -106,6 +110,7 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 - Classe - métodos residem dentro de classes
 - Ponto . - entre a classe e o método - é como se navega entre a classe e seus métodos
 - Ponto e vírgula - final do operador de instrução
+- Array multidimensional [,] - número da linha x número da coluna
 
 ### Sobre C#
  

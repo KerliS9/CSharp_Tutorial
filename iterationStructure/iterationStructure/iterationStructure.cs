@@ -3,7 +3,10 @@
 namespace iterationStructure;
 public class NumbersTools
 {
-static void Main(){}
+static void Main()
+{
+    WhileIsTrue(5);
+}
 public static int CountOf(int[] numbers, int value)
 {
     var count = 0;
@@ -68,5 +71,15 @@ public static int CountOf(int[] numbers, int value)
         Console.Write("Hey, say me your name:");
         var userName = Console.ReadLine();
         Console.WriteLine($"Ok, Hello {userName}");
+    }
+
+    public static void WhileIsTrue (int num)
+    {
+        int index = 1;
+        while (index <= num)
+        {
+            System.Console.WriteLine(index);
+            index++;
+        }
     }
 }

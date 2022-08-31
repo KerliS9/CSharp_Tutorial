@@ -106,3 +106,13 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 - Classe - métodos residem dentro de classes
 - Ponto . - entre a classe e o método - é como se navega entre a classe e seus métodos
 - Ponto e vírgula - final do operador de instrução
+
+### Sobre C#
+ 
+ - linguagem tipada
+ - compilada
+ - de código gerenciado - depende de um gerenciador, conhecido como Runtime. No C# este Runtime se chama CLR ou CLR Runtime.
+
+ - IL - Intermediate Language - todas as linguagens da Microsoft são compiladas para este nível
+ - CLR - Common Language Runtime - depois o CLR compila para código de máquina, executa e gerencia
+ - JIT - Just In Time

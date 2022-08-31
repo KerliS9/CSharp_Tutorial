@@ -4,6 +4,12 @@ Repositório criado para treinar conceitos básicos em C#
 
 # Pastas e conteúdos
 
+- arrayStructure:
+    - array único []
+    - array multidimensional [,]
+    - array jagged [][]
+    - array com mais de uma dimensão  não pode ser testado de forma direta, precisa ser transformado em array único primeiro
+
 - calculator:
     - convertendo tipos de dados
 

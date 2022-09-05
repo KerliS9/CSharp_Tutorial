@@ -33,6 +33,9 @@ Repositório criado para treinar conceitos básicos em C#
 - debugging code:
     - passo a passo para usar o debug
 
+- exception:
+    - try/catch/finally
+
 - guessingGame:
     - adivinhando a palavra
     - while combinado com if/else
@@ -57,6 +60,7 @@ Repositório criado para treinar conceitos básicos em C#
 - dotnet run
 - dotnet test
 - dotnet build
+- dotnet test --logger "console;verbosity=detailed"
 
 - dotnet new console -o console1
     console será o tipo de arquivo criado. console1 será o nome da pasta
@@ -117,6 +121,7 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 - Ponto . - entre a classe e o método - é como se navega entre a classe e seus métodos
 - Ponto e vírgula - final do operador de instrução
 - Array multidimensional [,] - número da linha x número da coluna
+- Try/catch/finally - finally sempre será executado, podendo ser usada para parar de consumir a conexão que foi iniciada no try
 
 ### Sobre C#
  
@@ -127,3 +132,5 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
  - IL - Intermediate Language - todas as linguagens da Microsoft são compiladas para este nível
  - CLR - Common Language Runtime - depois o CLR compila para código de máquina, executa e gerencia
  - JIT - Just In Time
+
+  - namespace: usado para relacionar os arquivos. Arquivos com o mesmo namespace ficam dentro do mesmo diretório.

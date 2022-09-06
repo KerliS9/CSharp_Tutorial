@@ -26,7 +26,7 @@ public class Loja
     {
         if (qtdTotalProdutos == estoque.Length)
         {
-            throw new IndexOutOfRangeException("O estoque já está cheio");
+            throw new IndexOutOfRangeException("O estoque já está cheio.");
         }
 
         estoque[qtdTotalProdutos] = new Produto(nome, unidades, valor);

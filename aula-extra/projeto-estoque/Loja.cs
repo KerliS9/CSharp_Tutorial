@@ -15,6 +15,13 @@ public class Loja
         this.qtdTotalProdutos = 0;
     }
 
+    public string NomeLoja => nomeLoja;
+
+    public Produto[] Estoque
+    {
+        get => estoque;
+    }
+
     public Produto AdicionarProduto(string nome, int unidades, double valor)
     {
         if (qtdTotalProdutos == estoque.Length)

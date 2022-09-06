@@ -26,7 +26,7 @@ public class Program
 
         loja1.AdicionarProduto(produto, unidades, valor);
         loja1.ListarProdutos();
-        // loja1.EditarProduto(produto, unidades, valor);
+        loja1.EditarProduto(produto, unidades, valor);
         // loja1.ListarProdutos();
     }
 }

@@ -35,7 +35,7 @@ public class TestarLoja
     public void TestEditarProduto(string nome, int unidades, double valor)
     {
         var instance = new Loja("nomeLoja1", 50);
-        instance.AdicionarProduto(nome, unidades, valor);
+        instance.AdicionarProduto(nome, unidades, valor); // linha incluída devido as entradas das funções estarem dinâmicas
         var result = instance.EditarProduto(nome, unidades, valor);
         
         result.Nome.Should().Be(nome);

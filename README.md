@@ -62,26 +62,34 @@ Repositório criado para treinar conceitos básicos em C#
 - dotnet build
 - dotnet test --logger "console;verbosity=detailed"
 
+
+
+### Iniciando um projeto simples
+
+#### Projeto Console
 - dotnet new console -o console1
     console será o tipo de arquivo criado. console1 será o nome da pasta
-
 - dotnet new xUnit -o console1.Test
 - dotnet add package FluentAssertions --version 6.5.1
     comando para adicionar a fluência nos testes - processar o comando dentro da pasta de testes
 - dotnet add reference ../pastaOrigem/pastaComAsFunçõesASeremTestadas.csproj
     referencia os testes em relação as funções
 
-### Iniciando um projeto simples
-- criar pasta (demais comandos processar dentro da pasta)
-- dotnet new sln (irá criar um arquivo NomeDaPasta.sln)
-- dotnet new classlib -o nomeDaPastaQueConteráALógica
-- dotnet sln NomeDaPasta.sln add nomeDaPastaQueConteráALógica/nomeDaPastaQueConteráALógica.csproj
-
-- dotnet new xUnit -n nomeDaPastaQueConteráALógica.Test
-- dotnet sln NomeDaPasta.sln add nomeDaPastaQueConteráALógica.Test/nomeDaPastaQueConteráALógica.Test.csproj
-- cd nomeDaPastaQueConteráALógica.Test
-- dotnet add reference ../NomeDaPasta/nomeDaPastaQueConteráALógica.csproj
-- dotnet add package FluentAssertions --version 6.5.1
+#### Projeto SLN
+No terminal:
+- criar diretório (demais comandos processar dentro da diretório)
+- dotnet new console -o nomeDoProjeto
+- dotnet new xunit -o nomeDoProjeto.Test
+- dotnet new sln --name nomeDoProjeto (arquivo Solution que fará a integração dos dois diretórios acima)
+- dotnet sln list (verifica que nenhum projeto foi criado no diretório)
+- dotnet sln add ./nomeDoProjeto
+- dotnet sln add ./nomeDoProjeto.Test
+- dotnet sln list (verifica que os projetos adicionados estão relacionados no diretório)
+No Rider:
+- abrir o nomeDoProjeto.sln no Rider
+- abre o diretório de teste, clica com o direito sobre a dependência, adiciona referência, marca o projeto a ser testado, adiciona (o teste tem acesso ao programa principal)
+- abre o diretório de teste, clica com o direito sobre o gerenciador de pacotes (manage nuget packages), no terminal que abrir digite FluentAssertions. Na aba a direita, clica em adicionar. Install.
+- Tudo pronto para trabalhar....
 
 Para processar e testar:
  - dotnet build

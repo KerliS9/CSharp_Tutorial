@@ -58,11 +58,13 @@ Repositório criado para treinar conceitos básicos em C#
 ## Comandos mais usados
 
 - dotnet run
+- dotnet clean
 - dotnet test
 - dotnet build
 - dotnet test --logger "console;verbosity=detailed"
 
-
+- dotnet --version
+- dotnet --list-sdks
 
 ### Iniciando um projeto simples
 
@@ -133,12 +135,14 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 
 ### Sobre C#
  
- - linguagem tipada
- - compilada
- - de código gerenciado - depende de um gerenciador, conhecido como Runtime. No C# este Runtime se chama CLR ou CLR Runtime.
+- linguagem tipada
+- compilada
+- de código gerenciado - depende de um gerenciador, conhecido como Runtime. No C# este Runtime se chama CLR ou CLR Runtime.
 
- - IL - Intermediate Language - todas as linguagens da Microsoft são compiladas para este nível
- - CLR - Common Language Runtime - depois o CLR compila para código de máquina, executa e gerencia
- - JIT - Just In Time
+- IL - Intermediate Language - todas as linguagens da Microsoft são compiladas para este nível
+- CLR - Common Language Runtime - depois o CLR compila para código de máquina, executa e gerencia
+- JIT - Just In Time
 
-  - namespace: usado para relacionar os arquivos. Arquivos com o mesmo namespace ficam dentro do mesmo diretório.
+- using: importações que serão usadas no arquivo
+- namespace: usado para relacionar os arquivos. Arquivos com o mesmo namespace ficam dentro do mesmo diretório
+- 

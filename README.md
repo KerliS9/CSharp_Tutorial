@@ -57,8 +57,12 @@ Repositório criado para treinar conceitos básicos em C#
     - chamando funções no método Main
     - usando parâmetros
 
+- programadorCsharp:
+    - array-collections
+
 - tikTakToe:
     - array bidimensional, com interação do usuário
+    - replicado solução usada na aceleração de C#
 
 - userInput:
     - fazendo interação com o usuário

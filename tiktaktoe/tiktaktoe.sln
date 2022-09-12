@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiktaktoe", "tiktaktoe\tiktaktoe.csproj", "{B0E7E5D0-366A-4075-9613-E23D6D356631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiktaktoe.Test", "tiktaktoe.Test\tiktaktoe.Test.csproj", "{A79E5FEF-9471-4855-841F-7787964A8B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E7E5D0-366A-4075-9613-E23D6D356631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E7E5D0-366A-4075-9613-E23D6D356631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E7E5D0-366A-4075-9613-E23D6D356631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E7E5D0-366A-4075-9613-E23D6D356631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79E5FEF-9471-4855-841F-7787964A8B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79E5FEF-9471-4855-841F-7787964A8B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79E5FEF-9471-4855-841F-7787964A8B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79E5FEF-9471-4855-841F-7787964A8B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

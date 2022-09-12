@@ -24,6 +24,9 @@ public class Program
         Console.WriteLine("Digite o preço deste produto: ");
         double valor = Convert.ToDouble(Console.ReadLine());
 
+        Console.WriteLine("Console.......");
+        Console.WriteLine(loja1);
+
         loja1.AdicionarProduto(produto, unidades, valor);
         loja1.ListarProdutos();
         loja1.EditarProduto(produto, unidades, valor);

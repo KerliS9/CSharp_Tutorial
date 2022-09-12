@@ -10,6 +10,11 @@ Repositório criado para treinar conceitos básicos em C#
     - array jagged [][]
     - array com mais de uma dimensão  não pode ser testado de forma direta, precisa ser transformado em array único primeiro
 
+- aula-extra:
+    - CRUD de estoque
+    - instanciando uma classe
+    - adicionando produtos ao estoque
+
 - calculator:
     - convertendo tipos de dados
 
@@ -51,6 +56,9 @@ Repositório criado para treinar conceitos básicos em C#
 - methods:
     - chamando funções no método Main
     - usando parâmetros
+
+- tikTakToe:
+    - array bidimensional, com interação do usuário
 
 - userInput:
     - fazendo interação com o usuário
@@ -144,5 +152,5 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 - JIT - Just In Time
 
 - using: importações que serão usadas no arquivo
-- namespace: usado para relacionar os arquivos. Arquivos com o mesmo namespace ficam dentro do mesmo diretório
+- namespace: usado para relacionar os arquivos. Arquivos com o mesmo namespace ficam dentro do mesmo escopo
 - 

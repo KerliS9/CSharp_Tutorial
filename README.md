@@ -57,6 +57,9 @@ Repositório criado para treinar conceitos básicos em C#
     - chamando funções no método Main
     - usando parâmetros
 
+- objectOrientation:
+    - composição e herança
+
 - programadorCsharp:
     - array-collections
 
@@ -119,6 +122,15 @@ Da mesma forma para os arquivos de testes, usando o formato NomeDaClasse.Test.cs
 - decimal - usado para identificar números com casas decimas, é necessário usar o sufixo m, por exemplo: 12.30m (Sem sufixo o número será tratado como double)
 - bool - usado para identificar valor verdadeiro ou falso, por exemplo: true
 - string - usado para apresentação ou referência, por exemplo: "Hello World!"
+
+### Sintaxe de um método
+
+Local Tipo Retorno Nome Parâmetro
+- Local - public, private, internal ou protected (internal - acessível ao mesmo namespace)
+- Tipo - static ou não static (a não declaração, corresponde a não static)
+- Retorno - tipo de dado esperado como retorno
+- Nome - nome do método
+- Parâmetro - dados inseridos no método
 
 ### Lendo erros no console - pontos de atenção:
 
